@@ -164,22 +164,29 @@
                 font-size: 2rem;
             }
         }
-.fa-twitter{
+.social-link{
             display: flex;
             justify-content: center;
-            text-decoration: underline;
-            font-size: 30px;
+        }
+
+        .fa-twitter{
+           
+            text-decoration: none;
+            font-size: 20px;
             margin-top: 60px;
-            margin-right: 60px;
+            margin-right: 50px;
             color: rgb(7, 7, 7);
         }
+        .social-links{
+            display: flex;
+            justify-content: center;
+            margin-top: -26px;
+        }
         .fa-linkedin{
-           display: flex;
-           justify-content: center;
+           
            text-decoration: none;
-            font-size: 30px;
+            font-size: 20px;
             color: blue;
-            margin-left: 80px;
-            margin-top: -30px;
-            
+            margin: auto;
+            margin-left: 70px;
         }
