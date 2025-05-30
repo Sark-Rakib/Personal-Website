@@ -64,6 +64,34 @@ function save() {
 }
         </script>
         </div>
+             <div class="portfolio-item">
+               <div class="login-container">
+      <h2>Login</h2>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username"   required/>
+      <input type="password" id="password" placeholder="Password" required />
+      <button class="log-in" type="submit">Log In</button>
+    </form>
+    <p id="message"></p>
+  </div>
+  <script>document.getElementById("loginForm").addEventListener("submit", function(e) {
+  e.preventDefault();
+  
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
+  
+  // Demo only: this is not secure
+  if (username === "admin" && password === "1234") {
+    document.getElementById("message").textContent = "Login successful!";
+    document.getElementById("message").style.color = "green";
+  } else {
+    document.getElementById("message").textContent = "Invalid credentials!";
+    document.getElementById("message").style.color = "red";
+  }
+});</script>
+                <h3>Project 7</h3>
+                <p>Brief description of my project.</p>
+            </div>
         </div>
     </section>
     </body>
