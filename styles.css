@@ -132,6 +132,7 @@
             border: 1px solid #ddd;
             border-radius: 5px;
             font-size: 1rem;
+            margin: auto;
         }
 
         #contact button {
@@ -141,6 +142,7 @@
             padding: 10px;
             border-radius: 5px;
             cursor: pointer;
+            margin: auto;        
         }
 
         #contact button:hover {
