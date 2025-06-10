@@ -170,14 +170,14 @@
             display: flex;
             justify-content: center;
         }
-
-        .fa-twitter{
-           
+.fa-twitter{   
             text-decoration: none;
-            font-size: 20px;
-            margin-top: 60px;
+            margin-top: 30px;
             margin-right: 50px;
             color: rgb(7, 7, 7);
+             border: 2px solid rgb(79, 61, 61);
+            border-radius: 20px 15px;
+            padding: 4px;
         }
         .social-links{
             display: flex;
@@ -185,12 +185,13 @@
             margin-top: -26px;
         }
         .fa-linkedin{
-           
            text-decoration: none;
-            font-size: 20px;
             color: blue;
             margin: auto;
             margin-left: 70px;
+            border: 2px solid rgb(79, 61, 61);
+            border-radius: 20px 15px;
+            padding: 4px;
         }
 .enter{
   background-color: rgb(170, 193, 213);
